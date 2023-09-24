@@ -22,6 +22,7 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
-    delete[] b; // hianyzik a b tomb felszabaditasa 
+    delete[] b; // hianyzik a b tomb felszabaditasa
+    std::cout << "a kod lefutott" << std::endl;
     return 0; 
 }
